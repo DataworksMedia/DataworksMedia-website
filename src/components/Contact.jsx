@@ -14,7 +14,7 @@ const Contact = () => {
             bridge the gap.
           </h1>
         </div>
-        <div className="justify-center md:items-start w-full px-2 py-8 bg-white rounded-xl  shadow-xl">
+        <div className="justify-center md:items-start w-full px-2 py-8 bg-slate-200 rounded-xl  shadow-xl">
           <h1 className="py-4 text-5xl md:text-7xl font-bold">
             Request a consultation
           </h1>
@@ -33,7 +33,7 @@ const Contact = () => {
 
             <div>
               <input
-                className="placeholder:italic shadow-sm focus:invalid:border-Red focus:outline-none text-2xl my-2 w-full"
+                className="bg-slate-200 placeholder:italic shadow-md focus:invalid:border-Red focus:outline-none text-2xl my-2 w-full"
                 type="text"
                 placeholder="Name..."
                 required
@@ -41,7 +41,7 @@ const Contact = () => {
             </div>
             <div>
               <input
-                className="placeholder:italic shadow-sm focus:invalid:border-Red focus:outline-none text-2xl my-2 w-full "
+                className="bg-slate-200 placeholder:italic shadow-md focus:invalid:border-Red focus:outline-none text-2xl my-2 w-full "
                 type="text"
                 placeholder="Company Name..."
                 required
@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
             <div>
               <input
-                className="placeholder:italic shadow-sm focus:invalid:border-Red focus:outline-none text-2xl my-2 w-full "
+                className="bg-slate-200 placeholder:italic shadow-md focus:invalid:border-Red focus:outline-none text-2xl my-2 w-full "
                 type="email"
                 placeholder="Email..."
                 required
@@ -57,7 +57,7 @@ const Contact = () => {
             </div>
             <div>
               <input
-                className="placeholder:italic shadow-sm focus:invalid:border-Red focus:outline-none text-2xl my-2 w-full "
+                className="bg-slate-200 placeholder:italic shadow-md focus:invalid:border-Red focus:outline-none text-2xl my-2 w-full "
                 type="tel"
                 placeholder="Phone Number..."
                 required
@@ -66,8 +66,7 @@ const Contact = () => {
             <motion.input
               whileHover={{ scale: 1.01 }}
               whileTap={{ scale: 0.9 }}
-              className="text-white border text-xl bg-Red border-Red
-    hover:bg-transparent hover:text-Red duration-300 rounded-md py-3 px-6 sm:w-[60%] my-4"
+              className="text-white border text-xl bg-Red border-Red hover:bg-transparent hover:text-Red duration-300 rounded-md py-3 px-6 sm:w-[60%] my-4"
               type="submit"
               value="Send"
               class="button"

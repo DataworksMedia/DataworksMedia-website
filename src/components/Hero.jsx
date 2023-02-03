@@ -60,6 +60,7 @@ const Hero = () => {
             }}>
           <img className="w-full" src={dwm} alt="Business logo" />
         </motion.div>
+        {/*}
         <motion.div
             animate={{
               opacity:1,
@@ -91,6 +92,7 @@ const Hero = () => {
             </p>
           </div>
         </motion.div>
+          */}
       </div>
     </div>
   );

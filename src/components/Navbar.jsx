@@ -107,6 +107,7 @@ const Navbar = () => {
             Services
           </Link>
         </motion.li>
+        {/*
         <motion.li
           className="border-b-2 border-zinc-300 w-full cursor-pointer hover:text-Red duration-300"
           whileTap={{ scale: 0.7 }}
@@ -121,6 +122,7 @@ const Navbar = () => {
             Testimonials
           </Link>
         </motion.li>
+*/}
         <div className="my-4">
           <motion.button whileTap={{ scale: 0.7 }} className="px-8 py-3">
             Contact Us
