@@ -68,8 +68,7 @@ const Contact = () => {
               whileTap={{ scale: 0.9 }}
               className="text-white border text-xl bg-Red border-Red hover:bg-transparent hover:text-Red duration-300 rounded-md py-3 px-6 sm:w-[60%] my-4"
               type="submit"
-              value="Send"
-              class="button"
+              value="Submit"
             />
           </form>
         </div>
