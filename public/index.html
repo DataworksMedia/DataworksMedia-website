@@ -29,7 +29,14 @@
     <title>DataWorks Media</title>
   </head>
   <body>
-    <form name="contact"  netlify netlify-honeypot="bot-field" hidden>
+    <form
+      name="contact"
+      action="../src/components/Success.jsx"
+      onSubmit="submit"
+      netlify
+      netlify-honeypot="bot-field"
+      hidden
+    >
       <p className="hidden h-0">
         <label>
           Don’t fill this out if you’re human: <input name="bot-field" />
