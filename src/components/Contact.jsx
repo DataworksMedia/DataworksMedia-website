@@ -20,19 +20,15 @@ const Contact = () => {
           </h1>
           <form
             name="contact"
-            method="POST"
-            netlify-honeypot="bot-field"
-            data-netlify="true "
+            action="/contact"
+            method="post"
+            data-netlify="true"
           >
-            <p className="hidden h-0">
-              <label>
-                Don’t fill this out if you’re human: <input name="bot-field" />
-              </label>
-            </p>
             <input type="hidden" name="form-name" value="contact" />
 
             <div>
               <input
+                name="name"
                 className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md my-2 py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-Red focus:ring-Red focus:ring-1 sm:text-sm "
                 type="text"
                 placeholder="Name..."
@@ -41,6 +37,7 @@ const Contact = () => {
             </div>
             <div>
               <input
+                name="company-name"
                 className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md my-2 py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-Red focus:ring-Red focus:ring-1 sm:text-sm "
                 type="text"
                 placeholder="Company Name..."
@@ -49,6 +46,7 @@ const Contact = () => {
             </div>
             <div>
               <input
+                name="email"
                 className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md my-2 py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-Red focus:ring-Red focus:ring-1 sm:text-sm "
                 type="email"
                 placeholder="Email..."
@@ -57,6 +55,7 @@ const Contact = () => {
             </div>
             <div>
               <input
+                name="phone"
                 className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md my-2 py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-Red focus:ring-Red focus:ring-1 sm:text-sm "
                 type="tel"
                 placeholder="Phone Number..."

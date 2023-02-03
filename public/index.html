@@ -29,6 +29,27 @@
     <title>DataWorks Media</title>
   </head>
   <body>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <p className="hidden h-0">
+        <label>
+          Don’t fill this out if you’re human: <input name="bot-field" />
+        </label>
+      </p>
+      <input type="hidden" name="form-name" value="contact" />
+
+      <div>
+        <input name="name" type="text" />
+      </div>
+      <div>
+        <input name="company-name" type="text" />
+      </div>
+      <div>
+        <input name="email" type="email" />
+      </div>
+      <div>
+        <input name="phone" type="tel" />
+      </div>
+    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
