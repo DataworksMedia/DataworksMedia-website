@@ -16,7 +16,9 @@ function App() {
         <link rel="canonical" href="http://dataworksmedia.com" />
         <meta
           name="description"
-          content="Dataworks Media is digital marketing agency focused on Paid Advertising PPC, Content Creation, Website building and hosting, and SEO management"
+          content="Dataworks Media is digital marketing agency focused 
+          on Paid Advertising PPC, Content Creation, Website building and 
+          hosting, and SEO management"
         />
       </Helmet>
       <Navbar />
