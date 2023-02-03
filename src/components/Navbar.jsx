@@ -29,7 +29,7 @@ const Navbar = () => {
               className="cursor-pointer hover:text-Red duration-300"
               whileTap={{ scale: 0.7 }}
             >
-              <Link to="About" smooth={true} offset={-150} duration={500}>
+              <Link to="About" smooth={true} offset={-125} duration={500}>
                 About
               </Link>
             </motion.li>
@@ -37,7 +37,7 @@ const Navbar = () => {
               className="cursor-pointer hover:text-Red duration-300"
               whileTap={{ scale: 0.7 }}
             >
-              <Link to="Services" smooth={true} offset={-50} duration={500}>
+              <Link to="Services" smooth={true} offset={-30} duration={500}>
                 Services
               </Link>
             </motion.li>
@@ -87,7 +87,7 @@ const Navbar = () => {
             onClick={handleClose}
             to="About"
             smooth={true}
-            offset={-150}
+            offset={-114}
             duration={500}
           >
             About
@@ -101,7 +101,7 @@ const Navbar = () => {
             onClick={handleClose}
             to="Services"
             smooth={true}
-            offset={-50}
+            offset={-10}
             duration={500}
           >
             Services
@@ -125,7 +125,13 @@ const Navbar = () => {
 */}
         <div className="my-4">
           <motion.button whileTap={{ scale: 0.7 }} className="px-8 py-3">
-          <Link onClick={handleClose} to="Contact" smooth={true} offset={-50} duration={500}>
+            <Link
+              onClick={handleClose}
+              to="Contact"
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
               Contact Us
             </Link>
           </motion.button>
