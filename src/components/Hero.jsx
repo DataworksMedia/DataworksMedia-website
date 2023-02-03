@@ -27,7 +27,7 @@ const Hero = () => {
             opacity: 0.1,
           }}
           transition={{
-            duration: 1
+            duration: 1,
           }}
           className="flex flex-col justify-center md:items-start w-full px-2 py-8"
         >
@@ -39,7 +39,7 @@ const Hero = () => {
           <motion.button
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.7 }}
-            className="py-3 px-6 sm:w-[60%] my-4"
+            className="py-3 px-6  my-4"
           >
             <Link to="Services" smooth={true} offset={-50} duration={500}>
               Get Started
@@ -47,17 +47,18 @@ const Hero = () => {
           </motion.button>
         </motion.div>
         <motion.div
-            animate={{
-              x:0,
-              opacity:1,
-            }}
-            initial={{
-              x:1000,
-              opacity:0.1
-            }}
-            transition={{
-              duration: 1.5
-            }}>
+          animate={{
+            x: 0,
+            opacity: 1,
+          }}
+          initial={{
+            x: 1000,
+            opacity: 0.1,
+          }}
+          transition={{
+            duration: 1.5,
+          }}
+        >
           <img className="w-full" src={dwm} alt="Business logo" />
         </motion.div>
         {/*}

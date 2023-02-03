@@ -125,7 +125,9 @@ const Navbar = () => {
 */}
         <div className="my-4">
           <motion.button whileTap={{ scale: 0.7 }} className="px-8 py-3">
-            Contact Us
+          <Link onClick={handleClose} to="Contact" smooth={true} offset={-50} duration={500}>
+              Contact Us
+            </Link>
           </motion.button>
         </div>
       </ul>

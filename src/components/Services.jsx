@@ -52,7 +52,7 @@ const Services = () => {
             </div>
             <div className="bg-slate-100 pl-8 py-4">
               <p className="flex items-center text-black cursor-pointer hover:text-Red duration-300">
-                <Link to="Contact" smooth={true} duration={500}>
+                <Link to="Contact" smooth={true} offset={-50} duration={500}>
                   Contact Us
                 </Link>
                 <ArrowSmallRightIcon className="w-5 ml-2" />
@@ -72,7 +72,7 @@ const Services = () => {
             </div>
             <div className="bg-slate-100 pl-8 py-4">
               <p className="flex items-center text-black cursor-pointer hover:text-Red duration-300">
-                <Link to="Contact" smooth={true} duration={500}>
+                <Link to="Contact" smooth={true} offset={-50} duration={500}>
                   Contact Us
                 </Link>
                 <ArrowSmallRightIcon className="w-5 ml-2" />
@@ -92,7 +92,7 @@ const Services = () => {
             </div>
             <div className="bg-slate-100 pl-8 py-4">
               <p className="flex items-center text-black cursor-pointer hover:text-Red duration-300">
-                <Link to="Contact" smooth={true} duration={500}>
+                <Link to="Contact" smooth={true} offset={-50} duration={500}>
                   Contact Us
                 </Link>
                 <ArrowSmallRightIcon className="w-5 ml-2" />
@@ -112,7 +112,7 @@ const Services = () => {
             </div>
             <div className="bg-slate-100 pl-8 py-4">
               <p className="flex items-center text-black cursor-pointer hover:text-Red duration-300">
-                <Link to="Contact" smooth={true} duration={500}>
+                <Link to="Contact" smooth={true} offset={-50} duration={500}>
                   Contact Us
                 </Link>
                 <ArrowSmallRightIcon className="w-5 ml-2" />

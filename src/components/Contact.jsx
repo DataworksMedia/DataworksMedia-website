@@ -31,7 +31,7 @@ const Contact = () => {
                 className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md my-2 py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-Red focus:ring-Red focus:ring-1 sm:text-sm "
                 type="text"
                 placeholder="Name..."
-                required
+                requiredS
               />
             </div>
             <div>
