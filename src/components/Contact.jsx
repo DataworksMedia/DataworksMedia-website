@@ -20,7 +20,8 @@ const Contact = () => {
           </h1>
           <form
             name="contact"
-           
+            action="/Success.jsx"
+            onSubmit="submit"
             method="post"
             data-netlify="true"
           >
