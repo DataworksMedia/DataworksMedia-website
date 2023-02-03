@@ -14,7 +14,7 @@ const Contact = () => {
             bridge the gap.
           </h1>
         </div>
-        <div className="justify-center md:items-start w-full px-2 py-8 bg-slate-200 rounded-xl  shadow-xl">
+        <div className="justify-center md:items-start w-full px-2 py-8 bg-white rounded-xl  shadow-xl">
           <h1 className="py-4 text-5xl md:text-7xl font-bold">
             Request a consultation
           </h1>
@@ -33,7 +33,7 @@ const Contact = () => {
 
             <div>
               <input
-                className="bg-slate-200 placeholder:italic shadow-md focus:invalid:border-Red focus:outline-none text-2xl my-2 w-full"
+                className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md my-2 py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-Red focus:ring-Red focus:ring-1 sm:text-sm "
                 type="text"
                 placeholder="Name..."
                 required
@@ -41,7 +41,7 @@ const Contact = () => {
             </div>
             <div>
               <input
-                className="bg-slate-200 placeholder:italic shadow-md focus:invalid:border-Red focus:outline-none text-2xl my-2 w-full "
+                className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md my-2 py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-Red focus:ring-Red focus:ring-1 sm:text-sm "
                 type="text"
                 placeholder="Company Name..."
                 required
@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
             <div>
               <input
-                className="bg-slate-200 placeholder:italic shadow-md focus:invalid:border-Red focus:outline-none text-2xl my-2 w-full "
+                className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md my-2 py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-Red focus:ring-Red focus:ring-1 sm:text-sm "
                 type="email"
                 placeholder="Email..."
                 required
@@ -57,7 +57,7 @@ const Contact = () => {
             </div>
             <div>
               <input
-                className="bg-slate-200 placeholder:italic shadow-md focus:invalid:border-Red focus:outline-none text-2xl my-2 w-full "
+                className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md my-2 py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-Red focus:ring-Red focus:ring-1 sm:text-sm "
                 type="tel"
                 placeholder="Phone Number..."
                 required
