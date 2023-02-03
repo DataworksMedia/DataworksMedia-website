@@ -41,7 +41,7 @@ const Hero = () => {
             whileTap={{ scale: 0.7 }}
             className="py-3 px-8 my-4"
           >
-            <Link to="Services" smooth={true} offset={-50} duration={500}>
+            <Link to="Services" smooth={true} offset={-16} duration={500}>
               Get Started
             </Link>
           </motion.button>
